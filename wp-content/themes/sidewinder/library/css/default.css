@@ -1,0 +1,9 @@
+/* Default */
+
+@import url("../../../base/library/css/default.css");
+.menu .current-menu-item a {background: #ddd !important;}
+.singleitem {background-color: #000;}
+#index .ui-slider-handle { border: 3px solid #333; }
+#index .ui-state-hover{border: 3px solid #000 !important;}
+.imgexcerpt, .imgexcerpt h6 {color:#fff; }
+.navigation, .nav-previous a, .nav-next a, .nav-previous a:hover, .nav-next a:hover {background-image: url(../../images/postsnav.png);}

@@ -1,0 +1,32 @@
+jQuery(document).ready(function(){
+	
+	jQuery.fn.slideFadeToggle = function(speed, easing, callback) {
+	  return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+	};
+	
+	jQuery('.show_captions').click( function() {
+		jQuery(this).parents('.flexslider').find(".flex-caption").each(function (i) {
+        if (this.style.display == "none") {
+          jQuery(this).show().animate({opacity:1}, 500);
+        } else {
+          jQuery(this).animate({opacity:0}, 500, function(){jQuery(this).hide();});
+        }
+      });
+
+		jQuery(this).text(jQuery(this).text() == 'Caption' ? 'Hide caption' : 'Caption');
+		return false; 
+	});
+	jQuery('.show_thumbnails').click( function() {
+		jQuery(this).parents('.flexslider').find('ul.gpp_slideshow_thumbnails').slideFadeToggle();
+		jQuery(this).text(jQuery(this).text() == 'Hide thumbnails' ? 'Show thumbnails' : 'Hide thumbnails');
+		return false; 
+	});
+
+});
+
+// Disables right click on images
+// jQuery(function() {
+    // jQuery('img').bind("contextmenu", function(e) {
+       // e.preventDefault();
+    // });
+// }); 

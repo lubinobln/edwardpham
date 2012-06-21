@@ -1,0 +1,61 @@
+/* Default */
+
+/* #fff */
+body, div.menu ul li li {background:#fff;}
+div.menu ul ul {background:#fff !important;}
+
+/* #efefef */
+div.menu ul li:hover, div.menu ul li.sfHover, div.menu ul a:focus, div.menu ul a:hover, div.menu ul a:active, #commentform #submit {background:#efefef;}
+
+/* #eee */
+caption, blockquote, #wp-calendar #prev a:hover, #wp-calendar #next a:hover, ol.commentlist li div.reply a, .navigation a:hover, .home .sticky, div.menu, div.menu ul ul, div.menu ul a  {background: #eee;}
+hr {border-top: 1px solid #eee;}
+
+/* #ddd */
+blockquote { border-left: 5px solid #ddd;}
+a, abbr, acronym, ol.commentlist li, h3#comments, .app, ul.meta, h3.title, .welcomebox a { border-bottom: 1px solid #ddd; }
+#commentform input, #commentform textarea, #commentform #submit, .navigation a, #sidebar input, ol.commentlist li div.vcard img.avatar, ol.commentlist li div.reply a, #wp-calendar #prev a, #wp-calendar #next a  { border: 1px solid #ddd; }
+#commentform #submit:hover, ol.commentlist li div.reply a:hover, .page-link a:hover, div.menu ul a:hover {background: #ddd;}
+#footer, ol.commentlist li ul.children li, ul.meta, #below_footer {border-top: 1px solid #ddd;}
+
+/* #ccc */
+#commentform #submit:hover, .navigation a:hover, ol.commentlist li div.reply a:hover {border: 1px solid #ccc;}
+thead th, tr.even td, .page-link a {background:#ccc;}
+
+/* #999 */
+.description, .entry-meta, .entry-utility, .entry-author, .entry-meta a, .entry-utility a, .entry-author a, ol.commentlist li div.comment-meta a, #commentform p, #commentform a, .navigation a, dd.gallery-caption, .wp-caption p.wp-caption-text, #below_footer, #below_footer a {color: #ffffff;}
+a:focus, a:hover {border-bottom:1px solid #999;}
+
+/* #666 */
+del, div.menu ul a, div.menu ul a:visited, .navigation a:hover, .entry-meta a:hover, .entry-utility a:hover, ul.meta, h3.title span span.amp, h6, h6 a  { color:#ffffff;}
+
+/* #555 */
+p.fancy {color: #555;}
+
+/* #333 */
+body, a {color:#333;}
+
+/* #111 */
+h1, h2, h3, h4, h5, h6, a:focus, a:hover, div.menu ul a:hover {color:#111;}
+.home .sticky {border-top: 5px solid #111}
+
+/* Light background images */
+.sf-sub-indicator {	background:url('../../images/arrows-dark.png') no-repeat -10px -100px; }
+
+/* wordpress 3.0+ custom menu dynamic tab highlighting css */
+.menu .current-menu-item a,
+.menu .current-menu-item a:visited { background-color: #ddd; color: #111; }
+	.menu .current-menu-item li a,
+	.menu .current-menu-item li a:visited { background-color: #eee; color: #666; }
+	.menu .current-menu-item li a:hover,
+	.menu .current-menu-item li a:active,
+	.menu .current-menu-item li a:focus { background-color: #ddd; color: #111; }
+
+/* wordpress 3.0+ non-custom menu dynamic tab highlighting css */
+.menu .current_page_item a,
+.menu .current_page_item a:visited { background-color: #ddd; color: #111; }
+	.menu .current_page_item li a,
+	.menu .current_page_item li a:visited { background-color: #eee; color: #666; }
+	.menu .current_page_item li a:hover,
+	.menu .current_page_item li a:active,
+	.menu .current_page_item li a:focus { background-color: #ddd; color: #111; }
