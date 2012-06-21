@@ -24,6 +24,16 @@
 "feed/index.html" />
 <link rel="stylesheet" type="text/css" href=
 "http://fonts.googleapis.com/css?family=Cabin" />
+<style type="text/css">
+    .container {
+        width: 500px;
+        clear: both;
+    }
+    .container input {
+        width: 100%;
+        clear: both;
+    }
+</style>
 <style type="text/css" media="screen">
 /*<![CDATA[*/
 body,input,textarea,submit{font-family:"Cabin" !important}
@@ -139,6 +149,30 @@ MENU_TOKEN
 "../me.jpg" alt="Edward Pham" width=
 "290" height="328" /></p>
 ABOUT_TOKEN
+</div>
+<h2 class="entry-title">Weddings</h2>
+<div class="entry-meta"><span class="entry-date">July 25,
+2010</span> <span class="by">by</span> <span class=
+"author vcard"><a class="url fn n" href=
+"../author/accord/index.html" title=
+"View all posts by admin">admin</a></span></div>
+<div class="entry-content">
+Collections start from $1,000,000. Cash preffered.<br />
+Please fill out the below to find ou about availability and pricing (NB: All fields are required)<br /><br />
+<form>
+<div class="container">
+<label>Name (Bride):<label/><input type="text" name="bride" />
+<label>Name (Groom):<label/><input type="text" name="groom" />
+<label>Email Address:<label/><input type="text" name="email" /><br />
+<label>Wedding Date:<label/><input type="text" name="date" /><br />
+<label>No. of Guests:<label/><input type="text" name="guests" /><br />
+<label>Ceremony Venue:<label/><input type="text" name="ceremony" /><br />
+<label>Reception Venue:<label/><input type="text" name="reception" /><br />
+<label>Reception Venue:<label/><input type="text" name="reception" /><br />
+<label>Message:<label/><input type="text" name="message"/></br /></br />
+</div>
+<input type="submit" value="Send Enquiry"/>
+</form>
 </div>
 <div class="clear"></div>
 <div class="entry-utility"></div>
