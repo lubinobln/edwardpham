@@ -17,6 +17,8 @@ identifyCmd = "identify %s"
 indexPageAlbum = "index.html.album"
 indexPageAbout = "index.html.about"
 indexPage = "index.html"
+confirmPageAbout = "confirm.html.about"
+confirmPage = "confirm.html"
 about = "about"
 aboutContent = "about.txt"
 ignoreDirs = ["wp-content", "wp-includes", "images", "img", "."]
@@ -84,20 +86,27 @@ def processAlbum(img):
 	return widths
 
 def processAbout(menuTag):
-		pagePath = os.path.join(about, indexPage)
-		shutil.copyfile(indexPageAbout, pagePath)
-
 		file = open(aboutContent)
 		aboutTag = ""
 		for para in file.readlines():
 			aboutTag += aboutTemplate % para
 		file.close()
 		
+		pagePath = os.path.join(about, indexPage)
+		shutil.copyfile(indexPageAbout, pagePath)
+		
 		for line in fileinput.FileInput(pagePath,  inplace = 1):
 		   line = line.replace(menuToken, menuTag)
 		   line = line.replace(aboutToken, aboutTag)
 		   print line
 
+		confirmPath = os.path.join(about, confirmPage)
+		shutil.copyfile(confirmPageAbout, confirmPath)
+		
+		for line in fileinput.FileInput(confirmPath,  inplace = 1):
+		   line = line.replace(menuToken, menuTag)
+		   print line
+		   
 def processDir(dir):
 	albums = []
 

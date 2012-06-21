@@ -1,5 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
 <head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Refresh" content="5;url=index.html" />
 <meta name="generator" content=
 "HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
 <title>Edward Pham Photography | About</title>
@@ -137,7 +138,7 @@ MENU_TOKEN
 <div class="content grid_12">
 <div id="post-2" class=
 "post-2 page type-page status-publish hentry">
-<h2 class="entry-title">About</h2>
+<h2 class="entry-title">Congradulations</h2>
 <div class="entry-meta"><span class="entry-date">July 25,
 2010</span> <span class="by">by</span> <span class=
 "author vcard"><a class="url fn n" href=
@@ -148,31 +149,7 @@ MENU_TOKEN
 "float: left; margin-right: 15px;" title="Edward Pham" src=
 "../me.jpg" alt="Edward Pham" width=
 "290" height="328" /></p>
-ABOUT_TOKEN
-</div>
-<h2 class="entry-title">Weddings</h2>
-<div class="entry-meta"><span class="entry-date">July 25,
-2010</span> <span class="by">by</span> <span class=
-"author vcard"><a class="url fn n" href=
-"../author/accord/index.html" title=
-"View all posts by admin">admin</a></span></div>
-<div class="entry-content">
-Collections start from $1,000,000. Cash preffered.<br />
-Please fill out the below to find ou about availability and pricing (NB: All fields are required)<br /><br />
-<form action="confirm.html" method="get">
-<div class="container">
-<label>Name (Bride):<label/><input type="text" name="bride" />
-<label>Name (Groom):<label/><input type="text" name="groom" />
-<label>Email Address:<label/><input type="text" name="email" /><br />
-<label>Wedding Date:<label/><input type="text" name="date" /><br />
-<label>No. of Guests:<label/><input type="text" name="guests" /><br />
-<label>Ceremony Venue:<label/><input type="text" name="ceremony" /><br />
-<label>Reception Venue:<label/><input type="text" name="reception" /><br />
-<label>Reception Venue:<label/><input type="text" name="reception" /><br />
-<label>Message:<label/><input type="text" name="message"/></br /></br />
-</div>
-<input type="submit" value="Send Enquiry"/>
-</form>
+Thankyou for your interest. I'll get back to you as soon as possible.
 </div>
 <div class="clear"></div>
 <div class="entry-utility"></div>
