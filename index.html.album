@@ -32,7 +32,7 @@ animating=true;}});jQuery(".end").css("z-index","99");jQuery(".start").css("z-in
 function ifSliderSlide(e,ui){jQuery("#mainholder").attr({scrollLeft:(ui.value*holdermulti)});}});/*]]>*/</script><script text='text/javascript'>/*<![CDATA[*/jQuery(document).ready(function(){if(jQuery('#mainindex').length){jQuery('#mainindex').nextAll().wrapAll('<div class="textcontent"></div>');}else{jQuery('.entry-content').wrapInner('<div class="textcontent" />');}});/*]]>*/</script><script type="text/javascript">jQuery(document).ready(function(){jQuery("ul.menu").supersubs({minWidth:10,maxWidth:30,extraWidth:3}).superfish
 jQuery("ul.menu").superfish({animation:{opacity:'show'},speed:'fast'});});</script><link
 rel="shortcut icon" href="../wp-content/uploads/2011/04/DAWN2ICON.gif" />
-GOOGLE_ANALYTICS_TOKEN
+ANALYTICS_TOKEN
 </head><body
 class="home blog"><div
 class="container_12"><div
