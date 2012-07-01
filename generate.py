@@ -24,6 +24,22 @@ aboutContent = "about.txt"
 ignoreDirs = ["wp-content", "wp-includes", "images", "img", "."]
 ignoreImg = ["logo.png", "me.jpg"]
 
+analytics = '''
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33028193-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+'''
+
 imgsTemplate = '''
 <div id="holder" style="width:%spx">
 	%s
@@ -51,6 +67,8 @@ menuTemplate = '''
 aboutTemplate='''
 <p>%s</p>
 '''
+
+analyticsToken = 'ANALYTICS_TOKEN'
 
 imagesToken = "IMAGES_TOKEN"
 
@@ -172,6 +190,7 @@ def processDir(dir):
 		shutil.copyfile(indexPageAlbum, pagePath)
 		
 		for line in fileinput.FileInput(pagePath,  inplace = 1):
+		   line = line.replace(analyticsToken, analytics)			
 		   line = line.replace(menuToken, menuTag)
 		   line = line.replace(imagesToken, imgTag)
 		   line = line.replace(thumbsToken, thbTag)
