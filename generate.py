@@ -10,9 +10,9 @@ imgHeight = 500
 thbHeight = 50
 imgExts = [".jpg", ".JPG", ".png"]
 thbSuffix = "_thumb"
-resizeCmd = "convert -resize x%s %s %s"
-thbCmd = "convert -thumbnail x%s %s %s"
-identifyCmd = "identify %s"
+resizeCmd = 'convert -resize x%s "%s" "%s"'
+thbCmd = 'convert -thumbnail x%s "%s" "%s"'
+identifyCmd = 'identify "%s"'
 
 indexPageAlbum = "index.html.album"
 indexPageAbout = "index.html.about"
@@ -63,7 +63,7 @@ aboutToken = "ABOUT_TOKEN"
 def width(img):
 	cmd = identifyCmd % (img)
 	res = subprocess.check_output(cmd, shell=True)
-	size = res.split()[2]
+	size = res.split()[-7]
 	width = size.split('x')[0]
 	return width
 	
