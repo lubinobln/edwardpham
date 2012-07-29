@@ -334,29 +334,31 @@ jQuery("ul.menu").superfish({animation:{opacity:'show'},speed:'fast'});});
 
 Please fill out the below to find ou about availability and pricing (NB: All fields are required)<br /><br />
 
-<form action="confirm.html" method="get">
+<form action="../cgi-bin/cgiemail/email.txt" method="post">
 
 <div class="container">
 
-<label>Name (Bride):<label/><input type="text" name="bride" /><br />
+<label>Name (Bride):<label/><input type="text" name="required-bride" /><br />
 
-<label>Name (Groom):<label/><input type="text" name="groom" /><br />
+<label>Name (Groom):<label/><input type="text" name="required-groom" /><br />
 
-<label>Email Address:<label/><input type="text" name="email" /><br />
+<label>Email Address:<label/><input type="text" name="required-email" /><br />
 
-<label>Wedding Date:<label/><input type="text" name="date" /><br />
+<label>Wedding Date:<label/><input type="text" name="required-date" /><br />
 
-<label>No. of Guests:<label/><input type="text" name="guests" /><br />
+<label>No. of Guests:<label/><input type="text" name="required-guests" /><br />
 
-<label>Ceremony Venue:<label/><input type="text" name="ceremony" /><br />
+<label>Ceremony Venue:<label/><input type="text" name="required-ceremony" /><br />
 
-<label>Reception Venue:<label/><input type="text" name="reception" /><br />
+<label>Reception Venue:<label/><input type="text" name="required-reception" /><br />
 
-<label>Message:<label/><input type="text" name="message"/></br /></br />
+<label>Message:<label/><input type="text" name="required-message"/></br /></br />
 
 </div>
 
 <input type="submit" value="Send Enquiry"/>
+
+<INPUT type="hidden" name="success" value="http://www.edwardpham.com.au/about/confirm.html">
 
 </form>
 

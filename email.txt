@@ -1,0 +1,11 @@
+To: edskii@gmail.com
+Subject: Wedding Inquiry
+
+Name (Bride): [required-bride]
+Name (Groom): [required-groom]
+Email Address: [required-email]
+Wedding Date: [required-date]
+No. of Guests: [required-guests]
+Ceremony Venue: [required-ceremony]
+Reception Venue: [required-reception]
+Message: [required-message]
